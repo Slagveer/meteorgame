@@ -11,6 +11,6 @@ export class AppComponent {
   gameElement: Element;
 
   constructor() {
-    this.gameElement = document.querySelector('body');
+    this.gameElement = document.querySelector('body');console.log(this.gameElement)
   }
 }
